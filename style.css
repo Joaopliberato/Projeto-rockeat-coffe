@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+}
+
+.column {
+  text-align: center;
+  display: flex;
+  text-decoration: none;
+  flex: 1; 
+}
+
+.column img {
+  margin-top: 65px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+body {
+  background-color: black;
+  background-image: url(assets/blur-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+body * {
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+
+
+ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+li {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 65px;
+  list-style: none;
+  padding: 16px;
+  font-size: 16px;
+}
+
+ul li:hover{
+background-color: rgba(255, 255, 255, 0.2);;
+border-radius: 35px;
+
+}
+
+#button-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-left: 160px;
+  margin-top: 67px;
+  border: 1px solid #8257e5;
+  padding: 11px 38px;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+#button-menu a {
+  font-size: 16px;
+  text-decoration: none;
+}
+#button-menu:hover{
+   background-color: rgba(255, 255, 255, 0.2);;
+}
+
+.normal-text {
+  justify-content: center;
+  font-size: 100px;
+  padding-top: 120px;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.outlined-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: black; /* Torna o texto transparente */
+  text-shadow: -1px -1px 0 #8257e5, 1px -1px 0 #8257e5, -1px 1px 0 #8257e5,
+  1px 1px 0 #8257e5;
+  font-size: 95px;
+}
+footer{
+  margin-top: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
